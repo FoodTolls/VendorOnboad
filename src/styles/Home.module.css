@@ -1,0 +1,42 @@
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url('/dinning.jpg');
+  min-height: 1250px
+}
+
+.formContainer{
+  padding-top:5rem;
+  min-width:50%;
+}
+
+.logoConatiner{
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 17.3%;
+}
+.logoConatiner img{
+  width: 200px;
+  margin: 10px;
+}
+.logoConatiner h1{
+  font-size: 3rem;
+}
+.logoConatiner h2{
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .mainContainer{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logoConatiner{
+    flex-grow: 0;
+  }
+  .formContainer{
+    min-width: 100%;
+    text-align: -webkit-center;
+  }
+}
