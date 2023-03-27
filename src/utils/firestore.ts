@@ -15,13 +15,13 @@ restName: string
 }
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDfL9B9MuQGpwkhAwdbUU02oTndv0QtZKo",
-    authDomain: "foodtolls.firebaseapp.com",
-    projectId: "foodtolls",
-    storageBucket: "foodtolls.appspot.com",
-    messagingSenderId: "780413382237",
-    appId: "1:780413382237:web:660a52ba5e586e8a63e7b4",
-    measurementId: "G-SEQ192S0DD"
+    apiKey: "AIzaSyBiaHDYjIUCc0s-DTfEyz1_599KcknNaDo",
+    authDomain: "foodtollsvendorapp.firebaseapp.com",
+    projectId: "foodtollsvendorapp",
+    storageBucket: "foodtollsvendorapp.appspot.com",
+    messagingSenderId: "889611199308",
+    appId: "1:889611199308:web:3c0fc5806a8e3a60e225e9",
+    measurementId: "G-TL1MEEG7ZV"
 };
 
 const app = initializeApp(firebaseConfig);
