@@ -48,7 +48,7 @@ export default function Home() {
             <span style={{ color: "white" }}>Highway Companion!!</span>
           </h1>
           <h2>
-            Help you{" "}
+            Helping you{" "}
             <span style={{ color: "white" }}>achieve your business </span>{" "}
             goals.
           </h2>
